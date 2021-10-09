@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(90, 33, 138);
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 65%;
+}
+
+.container {
+  width: 40%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+  min-width: 30rem;
+  padding: 1.5rem 2rem;
+  flex-wrap: wrap;
+}
+.container h1 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.container h3 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#newtask {
+  position: relative;
+  background-color: aliceblue;
+  padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+#newtask input {
+  width: 70%;
+  height: 4rem;
+  background-color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+}
+
+button {
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  color: whitesmoke;
+  background: white;
+  text-align: center;
+  /* margin-left: 4rem; */
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: rgb(90, 33, 138);
+  border: none;
+  cursor: pointer;
+}
+
+#tasks {
+  background-color: aliceblue;
+  padding: 2rem 1.5rem;
+  margin-top: 5rem;
+  border-radius: 1.2rem;
+  width: 100%;
+  position: relative;
+}
+.task {
+  background-color: aliceblue;
+  height: 3rem;
+  padding: 0.2rem 1.5rem;
+  font-size: 1.4rem;
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.2rem solid chocolate;
+}
+
+.task span {
+  background-color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
